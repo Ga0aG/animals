@@ -37,6 +37,7 @@ PlantAttributeList =[
     "| 寿命|",
     "| 外形特征|",
     "| 繁殖|",
+    "| 毒性|",
 ]
 def get_plant_attribute():
     return ["\n\n|属性|说明|\n","| ---- | ---- |\n"]+ [mem+"|\n" for mem in PlantAttributeList]+["\n"]
