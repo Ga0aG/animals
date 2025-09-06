@@ -19,6 +19,7 @@ except:
 
 AnimalAttributeList = [
     "| 别称|",
+    "| 英文名|",
     "| 属|",
     "| 分布|",
     "| 寿命|",
