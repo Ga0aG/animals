@@ -56,7 +56,7 @@ def get_fungi_attribute():
 with open("_sidebar.md") as file:
     lines = file.readlines()
     for line in lines:
-        matchs = re.search("\(..+\)", line)
+        matchs = re.search(r"\(..+\)", line)
         if not matchs:
             continue
         file_name = matchs.group(0)[1:-1]
