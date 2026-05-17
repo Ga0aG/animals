@@ -12,7 +12,7 @@ current_level = 1
 prefix = ""
 for line in content:
     level = line.find("-")/2
-    match = re.search("\[.*\]",line)
+    match = re.search(r"\[.*\]",line)
     if not match:
         continue
     name = match.group(0)[1:-1]
